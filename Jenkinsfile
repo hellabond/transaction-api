@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/hellabond/Transaction.git'
+                    url: 'https://github.com/hellabond/transaction-api.git'
             }
         }
         stage('Build') {
